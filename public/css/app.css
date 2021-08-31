@@ -1,0 +1,195 @@
+header {
+  margin-bottom: 40px;
+  background-color: #00439D;
+  padding: 10px 3px;
+  position: sticky;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.logoA {
+  text-decoration: none;
+  color: #F3F5FC;
+}
+
+#toggle {
+  display: none;
+  transition: 500ms all ease-in-out;
+}
+
+.toggle {
+  color: #F3F5FC;
+  position: absolute;
+  font-size: 32px;
+  top: 2px;
+  right: 2px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: none;
+  text-align: center;
+  width: 80%;
+  list-style: none;
+  margin: 20px auto 5px auto;
+  transition: 500ms all ease-in-out;
+}
+
+#toggle:checked header {
+  opacity: 0.8;
+  height: 100px;
+}
+
+#toggle:checked + .navbar {
+  display: block;
+}
+
+.nav-item {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #F3F5FC;
+}
+
+.iconify_nav {
+  margin-right: 8px;
+}
+
+.section-search {
+  position: relative;
+  border: 1px solid #00439D;
+  border-radius: 10px;
+  vertical-align: middle;
+  width: 90vw;
+  margin: auto;
+  height: 42px;
+  padding: 0 10px;
+  background-color: #D8DDDF;
+}
+
+#search {
+  background-color: #D8DDDF;
+  border: 0;
+  font-size: 18px;
+  vertical-align: sub;
+  width: 98%;
+}
+
+#search:focus {
+  outline: none;
+}
+
+.icon-search {
+  right: 2px;
+  top: 10px;
+  position: absolute;
+}
+
+.background-img {
+  position: relative;
+  margin: 20px auto;
+  background-image: url("/img/lille_flandres.jpg");
+  background-size: cover;
+  width: 95%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.name-places {
+  background-color: #F3F5FC;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  color: #00439D;
+  height: 50px;
+}
+
+.name-places > * {
+  padding: 0 10px;
+  align-self: center;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.imageSite {
+  display: flex;
+  justify-content: center;
+}
+
+.imageSite img {
+  height: 65vmin;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.input {
+  position: relative;
+  border-radius: 10px;
+  vertical-align: middle;
+  width: 90vw;
+  margin: 0 auto 30px auto;
+  height: 42px;
+  padding: 0 10px;
+  background-color: #D8DDDF;
+}
+
+.input input {
+  background-color: #D8DDDF;
+  border: 0;
+  font-size: 18px;
+  width: 98%;
+  height: 70%;
+  position: relative;
+  top: 20%;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.button {
+  position: absolute;
+  background-color: #00439D;
+  border: 0;
+  color: #F3F5FC;
+  width: 95%;
+  margin: 5px auto 0 auto;
+  height: 42px;
+  font-size: 20px;
+  border-radius: 10px;
+  bottom: 0;
+  left: 3%;
+}
+
+html {
+  font-size: clamp(100%, 1rem + 2vw, 24px);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F3F5FC;
+  font-family: "Montserrat", sans-serif;
+}

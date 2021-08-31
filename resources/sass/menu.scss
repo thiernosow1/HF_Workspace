@@ -1,0 +1,72 @@
+@import 'variables.scss';
+
+header{
+
+    margin-bottom: 40px;
+    background-color: $blue;
+    padding: 10px 3px;
+
+    position: sticky;
+
+}
+
+.header{
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+
+}
+.logoA{
+    text-decoration: none;
+    color: $fond;
+}
+
+#toggle{
+    display: none;
+    transition: 500ms all ease-in-out;
+}
+.toggle {
+    color: $fond;
+    position: absolute;
+    font-size: 32px;
+    top: 2px;
+    right: 2px;
+    // margin: 8px 20px 0 0;
+    cursor: pointer;
+
+  }
+  .navbar {
+    display: none;
+    text-align: center;
+    width: 80%;
+    list-style: none;
+    margin: 20px auto 5px auto;
+    transition: 500ms all ease-in-out;
+  }
+  #toggle:checked header{
+      opacity: 0.8;
+      height: 100px;
+  }
+
+  #toggle:checked + .navbar {
+    display: block;
+
+  }
+  .nav-item{
+      text-align: center;
+      margin-bottom: 5px;
+  }
+
+  .nav-link{
+      text-decoration: none;
+      color: $fond;
+  }
+
+  .iconify_nav{
+      margin-right: 8px;
+  }

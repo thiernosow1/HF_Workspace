@@ -1,0 +1,22 @@
+@import "menu.scss";
+@import "sites.scss";
+@import "auth.scss";
+
+// @import '~normalize.css/normalize.css';
+
+
+html{
+    font-size: clamp(100%, 1rem + 2vw, 24px);
+
+}
+
+
+
+
+body{
+    // width: 70%;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: $fond;
+    font-family: 'Montserrat', sans-serif;
+}

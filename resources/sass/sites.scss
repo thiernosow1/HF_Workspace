@@ -1,0 +1,78 @@
+.form-search{
+
+}
+
+.section-search{
+    position: relative;
+    border: 1px solid $blue;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 90vw;
+    margin: auto;
+    height: 42px;
+    padding: 0 10px;
+    background-color: $grey;
+}
+
+#search{
+    background-color: $grey;
+    border: 0;
+    font-size: 18px;
+    vertical-align: sub;
+    width: 98%;
+}
+#search:focus{
+    outline: none;
+}
+.icon-search{
+    right: 2px;
+    top: 10px;
+    position: absolute;
+}
+
+
+.background-img{
+    position: relative;
+    margin: 20px auto;
+    background-image: url("/img/lille_flandres.jpg");
+    background-size: cover;
+    width: 95%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+
+}
+
+.name-places{
+    background-color: $fond;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    color: $blue;
+    height: 50px;
+
+
+}
+.name-places>*{
+    padding: 0 10px;
+    align-self: center;
+    font-weight: 600;
+
+}
+.name{
+    font-size: 20px;
+
+}
+
+.imageSite{
+    display: flex;
+    justify-content: center;
+}
+.imageSite img{
+    height: 65vmin;
+}
