@@ -1,0 +1,7 @@
+@import '~normalize.css/normalize.css';
+
+body {
+    color: red;
+    background-color: black;
+}
+

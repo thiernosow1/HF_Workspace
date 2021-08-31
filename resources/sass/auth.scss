@@ -1,0 +1,46 @@
+.page-title{
+    text-align: center;
+}
+
+.login-form{
+
+    text-align: center;
+
+}
+.input{
+    position: relative;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 90vw;
+    margin: 0 auto 30px auto;
+    height: 42px;
+    padding: 0 10px;
+    background-color: $grey;
+}
+
+.input input{
+    background-color: $grey;
+    border: 0;
+    font-size: 18px;
+    width: 98%;
+    height: 70%;
+    position: relative;
+    top: 20%;
+}
+.input input:focus{
+    outline: none;
+}
+
+.button{
+    position: absolute;
+    background-color: $blue;
+    border: 0;
+    color: $fond;
+    width: 95%;
+    margin: 5px auto 0 auto;
+    height: 42px;
+    font-size: 20px;
+    border-radius: 10px;
+    bottom: 0;
+    left: 3%;
+}
