@@ -61,6 +61,14 @@ header {
   margin-right: 8px;
 }
 
+@media screen and (min-width: 600px) {
+  .header {
+    position: relative;
+    width: 45%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
 .section-search {
   position: relative;
   border: 1px solid #00439D;
@@ -89,6 +97,17 @@ header {
   right: 2px;
   top: 10px;
   position: absolute;
+}
+
+@media screen and (min-width: 600px) {
+  .sites {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.site {
+  position: relative;
+  margin-bottom: 50px;
 }
 
 .background-img {
@@ -133,6 +152,19 @@ header {
 
 .imageSite img {
   height: 65vmin;
+}
+
+.buttonReserver {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #00439D;
+  color: white;
+  width: 92%;
+  margin: 5px auto 10px auto;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .page-title {
@@ -182,6 +214,15 @@ header {
   left: 3%;
 }
 
+.alignRight {
+  text-align: right;
+  font-weight: 200;
+}
+
+.compteP {
+  width: 90%;
+}
+
 html {
   font-size: clamp(100%, 1rem + 2vw, 24px);
 }
@@ -192,4 +233,18 @@ body {
   box-sizing: border-box;
   background-color: #F3F5FC;
   font-family: "Montserrat", sans-serif;
+}
+
+.error {
+  position: absolute;
+  bottom: 68px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    width: 45%;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+  }
 }

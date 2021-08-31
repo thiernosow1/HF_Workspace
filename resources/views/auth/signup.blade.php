@@ -25,7 +25,7 @@
 
     <div class="input">
         <label hidden for="phone">Téléphone</label>
-        <input type="tel" id="phone" name="phone" maxlength="10" placeholder="Numéro de téléphone" required/>
+        <input type="tel" id="phone" name="phone" maxlength="10" minlength="10" placeholder="Numéro de téléphone" required/>
     </div>
 
     <label for="remember">se souvenir de moi</label>

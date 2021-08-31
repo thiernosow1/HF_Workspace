@@ -14,7 +14,7 @@
 </div>
 </form>
 
-<section>
+<section class="sites">
     {{-- Section contenant toute la liste de sites --}}
     @foreach ($sites as $s )
     <a href={{"/sites/" . $s->id}}>

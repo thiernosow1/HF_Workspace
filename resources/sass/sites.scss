@@ -30,6 +30,18 @@
     position: absolute;
 }
 
+@media  screen and (min-width : 600px) {
+    .sites{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+.site{
+    position: relative;
+    margin-bottom: 50px;
+}
 
 .background-img{
     position: relative;
@@ -75,4 +87,20 @@
 }
 .imageSite img{
     height: 65vmin;
+}
+
+.buttonReserver{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: $blue;
+    color: white;
+    width: 92%;
+    margin: 5px auto 10px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+
+
+
 }

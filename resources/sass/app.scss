@@ -10,13 +10,27 @@ html{
 
 }
 
-
-
-
 body{
     // width: 70%;
     margin: 0; padding: 0;
     box-sizing: border-box;
     background-color: $fond;
     font-family: 'Montserrat', sans-serif;
+}
+
+.error{
+    position: absolute;
+    bottom: 68px;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px){
+    // section{
+    //     width: 60%;
+    // }
+    main{
+        width: 45%;
+        margin: 0 auto 20px auto;
+        overflow: hidden;
+    }
 }

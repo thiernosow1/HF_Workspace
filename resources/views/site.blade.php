@@ -1,8 +1,7 @@
 @extends('welcome')
 
 @section('content')
-Je suis la page qui liste  les informations d'un site
-<section>
+<section class="site">
 
     <h2>{{$site->name}}</h2>
     <div class="imageSite">

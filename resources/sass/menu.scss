@@ -70,3 +70,18 @@ header{
   .iconify_nav{
       margin-right: 8px;
   }
+
+  @media screen and (min-width: 600px){
+    // section{
+    //     width: 60%;
+    // }
+    .header{
+        position: relative;
+        width: 45%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .toggle{
+        // position: relative;
+    }
+}

@@ -44,10 +44,11 @@ class UserController extends Controller
         printf($user->password);
         if (!Hash::check($password, $user->password)) {
             // TODO: Renvoyer vers la page d'accueil
-            printf("\nnot ok");
+            // printf("\nnot ok");
+            print("<p class='error'>email ou mot de passe incorrect</p>");
             return view("auth/login");
         }
-        printf("\nok");
+        // printf("\nok");
         $request->session()->put("isAdmin", $user->isAdmin);
         $request->session()->put("id", $user->id);
         $request->session()->save();
