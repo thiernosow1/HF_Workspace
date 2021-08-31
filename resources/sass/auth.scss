@@ -54,3 +54,30 @@
     width: 90%;
 
 }
+
+.buttonSupprimer{
+    background-color: $fond;
+    color: rgb(240, 20, 20);
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+@media screen and (min-width: 600px){
+    .button{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.users{
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.40);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
